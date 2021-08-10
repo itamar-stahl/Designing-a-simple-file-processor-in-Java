@@ -1,0 +1,42 @@
+A basic file processor.
+It receives a commands file and outputs filtered and sorted
+lists of files corresponding to each orders section in this file (See structure below).
+
+This exercise aimed at the application of well-known Object-Oriented Programming principles and concepts.
+It demonstrates the usage of Polyphormism and different design patterns in Java while keeping principles
+like data encapsulation and modularity.
+Another goal is practicing error handling using the exception mechanism of Java*.
+
+The different packages:
+
+fileprocessing -
+Main class. Interpreters the commands file, access to the path, manage the other packages,
+and outputs the results.
+
+filters -
+Filters a files list by different filters supported by the program.
+
+sorting -
+Sorts a files list. Implements different sorters.
+
+*Note: Due to educational reasons, there is almost no use of the built-in exceptions of Java
+in this exercise. Instead, each class conditions its own custom exceptions.
+
+---
+The commands file's structure:
+
+***************************************
+* FILTER                              * - Begginning of a section
+* <filter_name>#(optional suffix:)NOT * - filter parameters
+* ORDER                               * 
+* <sorting_order_name>                * - sorter parameters
+* FILTER                              * - Begginning of a new section
+* <filter_name>                       * - ...
+* ORDER                               *
+* <sorting_order_name>                *
+* ...                                 *
+***************************************
+
+Example of usage:
+Java DirectoryProcessor <directory path> <commands file path>
+C:\Users\itasm\repos\Exercises\Designing a simple file processor in Java\p\Command files\filter002.flt
