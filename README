@@ -36,7 +36,3 @@ The commands file's structure:
 * <sorting_order_name>                *
 * ...                                 *
 ***************************************
-
-Example of usage:
-Java DirectoryProcessor <directory path> <commands file path>
-C:\Users\itasm\repos\Exercises\Designing a simple file processor in Java\p\Command files\filter002.flt
