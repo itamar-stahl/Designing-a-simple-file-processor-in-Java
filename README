@@ -2,8 +2,8 @@ A basic file processor.
 It receives a commands file and outputs filtered and sorted
 lists of files corresponding to each orders section in this file (See structure below).
 
-This exercise aimed at the application of well-known Object-Oriented Programming principles and concepts.
-It demonstrates the usage of Inheritance, Polymorphism, and different design patterns in Java while keeping principles like data encapsulation and modularity.
+This exercise aimed at the application of well-known Object-Oriented Programming principles and concepts in Java.
+It demonstrates using Inheritance and Polymorphism while keeping principles like data encapsulation and modularity, as well as the usage of different design patterns.
 Another goal is practicing error handling using the exception mechanism of Java*.
 
 The different packages:
