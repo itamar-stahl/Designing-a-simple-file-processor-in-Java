@@ -3,8 +3,7 @@ It receives a commands file and outputs filtered and sorted
 lists of files corresponding to each orders section in this file (See structure below).
 
 This exercise aimed at the application of well-known Object-Oriented Programming principles and concepts.
-It demonstrates the usage of Polyphormism and different design patterns in Java while keeping principles
-like data encapsulation and modularity.
+It demonstrates the usage of Inheritance, Polymorphism, and different design patterns in Java while keeping principles like data encapsulation and modularity.
 Another goal is practicing error handling using the exception mechanism of Java*.
 
 The different packages:
@@ -20,7 +19,7 @@ sorting -
 Sorts a files list. Implements different sorters.
 
 *Note: Due to educational reasons, there is almost no use of the built-in exceptions of Java
-in this exercise. Instead, each class conditions its own custom exceptions.
+in this exercise. Instead, each package includes its own custom exceptions.
 
 ---
 The commands file's structure:
